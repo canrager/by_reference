@@ -1,0 +1,1782 @@
+[
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "X742",
+      "Beta",
+      "Pi"
+    ],
+    "attributes": {
+      "e1_role": "receiver",
+      "e1_task": "routing",
+      "e2_task": "routing",
+      "e2_mode": "manual",
+      "e3_role": "transmitter",
+      "e3_task": "storing"
+    },
+    "text": "The receiver X742 executes routing processing, as Beta handles routing in manual, while Pi maintains its transmitter with storing responsibility."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "R166N",
+      "P4WX8",
+      "Bjorn"
+    ],
+    "attributes": {
+      "e1_state": "ready",
+      "e1_speed": "rapid",
+      "e2_efficiency": "efficient",
+      "e2_mode": "emergency",
+      "e3_state": "idle",
+      "e3_reliability": "consistent"
+    },
+    "text": "R166N runs in a ready condition at rapid, as P4WX8 maintains efficient processing in emergency, while Bjorn operates idle with consistent."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Oreo",
+      "g8v3w",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_phase": "transitional",
+      "e1_frequency": "periodic",
+      "e2_duration": "variable",
+      "e3_task": "storing",
+      "e3_phase": "final"
+    },
+    "text": "During its transitional stage, Oreo runs periodic checks, as g8v3w maintains variable operations, and Beacon14 completes storing in final."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "f1x5y",
+      "C7D9",
+      "y9e4a"
+    ],
+    "attributes": {
+      "e1_state": "idle",
+      "e1_speed": "sluggish",
+      "e2_efficiency": "inefficient",
+      "e2_mode": "maintenance",
+      "e3_state": "active",
+      "e3_reliability": "unreliable"
+    },
+    "text": "f1x5y runs in a idle condition at sluggish, as C7D9 maintains inefficient processing in maintenance, while y9e4a operates active with unreliable."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Port20",
+      "n6c2d",
+      "Iota"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_size": "large",
+      "e2_material": "ceramic",
+      "e2_shape": "triangular",
+      "e3_color": "white",
+      "e3_size": "tiny"
+    },
+    "text": "Port20 is yellow in color and large, while n6c2d appears ceramic and triangular, and Iota remains white and tiny."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Giovanni",
+      "w5h6j",
+      "x7f2d"
+    ],
+    "attributes": {
+      "e1_phase": "middle",
+      "e1_frequency": "monthly",
+      "e2_duration": "permanent",
+      "e3_task": "storing",
+      "e3_phase": "middle"
+    },
+    "text": "During its middle stage, Giovanni runs monthly checks, as w5h6j maintains permanent operations, and x7f2d completes storing in middle."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "F6T832",
+      "M2B76",
+      "Bjorn"
+    ],
+    "attributes": {
+      "e1_room": "room-102",
+      "e1_state": "offline",
+      "e2_zone": "zone-A",
+      "e2_position": "east",
+      "e3_room": "hall-1"
+    },
+    "text": "Located in room-102, F6T832 operates offline, as M2B76 functions from zone-A in east, with Bjorn situated in hall-1."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "entities": [
+      "Monitor18",
+      "Bjorn",
+      "Alpha"
+    ],
+    "attributes": {
+      "e1_task": "backup",
+      "e1_frequency": "daily",
+      "e2_duration": "temporary",
+      "e2_phase": "middle",
+      "e3_task": "storing",
+      "e3_frequency": "daily"
+    },
+    "text": "Monitor18 performs backup daily, while Bjorn operates on temporary cycles in middle, and Alpha executes storing at daily intervals."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "k5m2n",
+      "u3p7q",
+      "e4z9a"
+    ],
+    "attributes": {
+      "e1_material": "wooden",
+      "e1_size": "huge",
+      "e2_color": "black",
+      "e2_shape": "spherical",
+      "e3_material": "wooden",
+      "e3_size": "massive"
+    },
+    "text": "The wooden k5m2n stands huge, whereas u3p7q shows a black tint and spherical form, next to the wooden and massive e4z9a."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "entities": [
+      "M2B76",
+      "Juan",
+      "Yuki"
+    ],
+    "attributes": {
+      "e1_zone": "zone-B",
+      "e1_position": "top",
+      "e2_room": "office-1",
+      "e2_state": "ready",
+      "e3_zone": "zone-A",
+      "e3_position": "north"
+    },
+    "text": "Within zone-B, M2B76 occupies top placement, while Juan resides in office-1 maintaining ready, and Yuki is stationed at zone-A in north."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "E5NY9",
+      "Milo",
+      "LR451"
+    ],
+    "attributes": {
+      "e1_phase": "current",
+      "e1_frequency": "daily",
+      "e2_duration": "permanent",
+      "e3_task": "storing",
+      "e3_phase": "transitional"
+    },
+    "text": "During its current stage, E5NY9 runs daily checks, as Milo maintains permanent operations, and LR451 completes storing in transitional."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "Sora",
+      "Scout",
+      "Omicron"
+    ],
+    "attributes": {
+      "e1_state": "standby",
+      "e1_speed": "delayed",
+      "e2_efficiency": "economical",
+      "e2_mode": "maintenance",
+      "e3_state": "offline",
+      "e3_reliability": "reliable"
+    },
+    "text": "Sora runs in a standby condition at delayed, as Scout maintains economical processing in maintenance, while Omicron operates offline with reliable."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "Pepper",
+      "k5m2n",
+      "Coco"
+    ],
+    "attributes": {
+      "e1_role": "processor",
+      "e1_task": "computing",
+      "e2_mode": "automatic",
+      "e2_task": "routing",
+      "e3_role": "receiver",
+      "e3_mode": "manual"
+    },
+    "text": "Pepper serves as processor performing computing, while k5m2n functions in automatic for routing, and Coco operates as receiver with manual control."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Omicron",
+      "r7w3x",
+      "Node04"
+    ],
+    "attributes": {
+      "e1_room": "bay-1",
+      "e1_state": "busy",
+      "e2_zone": "zone-C",
+      "e2_position": "west",
+      "e3_room": "hall-1"
+    },
+    "text": "Located in bay-1, Omicron operates busy, as r7w3x functions from zone-C in west, with Node04 situated in hall-1."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Sigma",
+      "Leo",
+      "Tau"
+    ],
+    "attributes": {
+      "e1_room": "office-1",
+      "e1_state": "offline",
+      "e2_zone": "sector-2",
+      "e2_position": "west",
+      "e3_room": "office-1"
+    },
+    "text": "Located in office-1, Sigma operates offline, as Leo functions from sector-2 in west, with Tau situated in office-1."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "v4m2n",
+      "R166N",
+      "P4WX8"
+    ],
+    "attributes": {
+      "e1_color": "black",
+      "e1_size": "massive",
+      "e2_material": "metal",
+      "e2_shape": "round",
+      "e3_color": "white",
+      "e3_size": "huge"
+    },
+    "text": "v4m2n is black in color and massive, while R166N appears metal and round, and P4WX8 remains white and huge."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "Tau",
+      "F6T832",
+      "Scout"
+    ],
+    "attributes": {
+      "e1_material": "wooden",
+      "e1_size": "large",
+      "e2_color": "red",
+      "e2_shape": "cubic",
+      "e3_material": "fabric",
+      "e3_size": "huge"
+    },
+    "text": "The wooden Tau stands large, whereas F6T832 shows a red tint and cubic form, next to the fabric and huge Scout."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "Router01",
+      "Adapter19",
+      "Bridge06"
+    ],
+    "attributes": {
+      "e1_material": "fabric",
+      "e1_size": "large",
+      "e2_color": "blue",
+      "e2_shape": "spherical",
+      "e3_material": "glass",
+      "e3_size": "compact"
+    },
+    "text": "The fabric Router01 stands large, whereas Adapter19 shows a blue tint and spherical form, next to the glass and compact Bridge06."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "F6T832",
+      "P4WX8",
+      "Unit05"
+    ],
+    "attributes": {
+      "e1_role": "controller",
+      "e1_task": "scanning",
+      "e2_task": "routing",
+      "e2_mode": "maintenance",
+      "e3_role": "transmitter",
+      "e3_task": "computing"
+    },
+    "text": "The controller F6T832 executes scanning processing, as P4WX8 handles routing in maintenance, while Unit05 maintains its transmitter with computing responsibility."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "Server16",
+      "Scanner13",
+      "Chen"
+    ],
+    "attributes": {
+      "e1_state": "idle",
+      "e1_speed": "delayed",
+      "e2_efficiency": "economical",
+      "e2_mode": "standard",
+      "e3_state": "standby",
+      "e3_reliability": "stable"
+    },
+    "text": "Server16 runs in a idle condition at delayed, as Scanner13 maintains economical processing in standard, while Chen operates standby with stable."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "S7V92",
+      "Hiroshi",
+      "Eta"
+    ],
+    "attributes": {
+      "e1_phase": "middle",
+      "e1_frequency": "hourly",
+      "e2_duration": "temporary",
+      "e3_task": "computing",
+      "e3_phase": "final"
+    },
+    "text": "During its middle stage, S7V92 runs hourly checks, as Hiroshi maintains temporary operations, and Eta completes computing in final."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Coco",
+      "t8k4l",
+      "Bridge06"
+    ],
+    "attributes": {
+      "e1_phase": "middle",
+      "e1_frequency": "hourly",
+      "e2_duration": "brief",
+      "e3_task": "backup",
+      "e3_phase": "initial"
+    },
+    "text": "During its middle stage, Coco runs hourly checks, as t8k4l maintains brief operations, and Bridge06 completes backup in initial."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "e4z9a",
+      "Terminal09",
+      "K10X7"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_task": "storing",
+      "e1_speed": "swift",
+      "e2_state": "idle",
+      "e2_mode": "automatic",
+      "e3_zone": "sector-3",
+      "e3_phase": "transitional"
+    },
+    "text": "The yellow e4z9a performs storing at swift, as Terminal09 functions idle in automatic, while K10X7 operates from sector-3 in transitional."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "Alpha",
+      "Lucia",
+      "Ziggy"
+    ],
+    "attributes": {
+      "e1_state": "idle",
+      "e1_speed": "rapid",
+      "e2_efficiency": "efficient",
+      "e2_mode": "manual",
+      "e3_state": "standby",
+      "e3_reliability": "consistent"
+    },
+    "text": "Alpha runs in a idle condition at rapid, as Lucia maintains efficient processing in manual, while Ziggy operates standby with consistent."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Leo",
+      "Xi",
+      "Fatima"
+    ],
+    "attributes": {
+      "e1_room": "hall-1",
+      "e1_state": "offline",
+      "e2_zone": "sector-1",
+      "e2_position": "north",
+      "e3_room": "bay-1"
+    },
+    "text": "Located in hall-1, Leo operates offline, as Xi functions from sector-1 in north, with Fatima situated in bay-1."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "entities": [
+      "r7w3x",
+      "Nu",
+      "C7D9"
+    ],
+    "attributes": {
+      "e1_task": "backup",
+      "e1_frequency": "daily",
+      "e2_duration": "permanent",
+      "e2_phase": "middle",
+      "e3_task": "backup",
+      "e3_frequency": "periodic"
+    },
+    "text": "r7w3x performs backup daily, while Nu operates on permanent cycles in middle, and C7D9 executes backup at periodic intervals."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "t8k4l",
+      "Leo",
+      "Omicron"
+    ],
+    "attributes": {
+      "e1_state": "busy",
+      "e1_speed": "delayed",
+      "e2_efficiency": "optimal",
+      "e2_mode": "hybrid",
+      "e3_state": "standby",
+      "e3_reliability": "unreliable"
+    },
+    "text": "t8k4l runs in a busy condition at delayed, as Leo maintains optimal processing in hybrid, while Omicron operates standby with unreliable."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Giovanni",
+      "HJ845",
+      "m9f7g"
+    ],
+    "attributes": {
+      "e1_color": "silver",
+      "e1_size": "tiny",
+      "e2_material": "ceramic",
+      "e2_shape": "cylindrical",
+      "e3_color": "black",
+      "e3_size": "compact"
+    },
+    "text": "Giovanni is silver in color and tiny, while HJ845 appears ceramic and cylindrical, and m9f7g remains black and compact."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Nu",
+      "Ginger",
+      "Upsilon"
+    ],
+    "attributes": {
+      "e1_phase": "transitional",
+      "e1_frequency": "weekly",
+      "e2_duration": "extended",
+      "e3_task": "storing",
+      "e3_phase": "transitional"
+    },
+    "text": "During its transitional stage, Nu runs weekly checks, as Ginger maintains extended operations, and Upsilon completes storing in transitional."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "v4m2n",
+      "Karim",
+      "Sensor02"
+    ],
+    "attributes": {
+      "e1_role": "controller",
+      "e1_task": "computing",
+      "e2_task": "storing",
+      "e2_mode": "automatic",
+      "e3_role": "monitor",
+      "e3_task": "computing"
+    },
+    "text": "The controller v4m2n executes computing processing, as Karim handles storing in automatic, while Sensor02 maintains its monitor with computing responsibility."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Noodle",
+      "Yuki",
+      "Daisy"
+    ],
+    "attributes": {
+      "e1_phase": "current",
+      "e1_frequency": "periodic",
+      "e2_duration": "temporary",
+      "e3_task": "routing",
+      "e3_phase": "current"
+    },
+    "text": "During its current stage, Noodle runs periodic checks, as Yuki maintains temporary operations, and Daisy completes routing in current."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "Delta",
+      "Daisy",
+      "z8b3c"
+    ],
+    "attributes": {
+      "e1_material": "wooden",
+      "e1_size": "small",
+      "e2_color": "golden",
+      "e2_shape": "round",
+      "e3_material": "glass",
+      "e3_size": "tiny"
+    },
+    "text": "The wooden Delta stands small, whereas Daisy shows a golden tint and round form, next to the glass and tiny z8b3c."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "Juan",
+      "Sigma",
+      "Eta"
+    ],
+    "attributes": {
+      "e1_state": "active",
+      "e1_speed": "slow",
+      "e2_efficiency": "optimal",
+      "e2_mode": "manual",
+      "e3_state": "busy",
+      "e3_reliability": "unreliable"
+    },
+    "text": "Juan runs in a active condition at slow, as Sigma maintains optimal processing in manual, while Eta operates busy with unreliable."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "Kiwi",
+      "f1x5y",
+      "DX04K"
+    ],
+    "attributes": {
+      "e1_material": "fabric",
+      "e1_size": "massive",
+      "e2_color": "yellow",
+      "e2_shape": "cubic",
+      "e3_material": "fabric",
+      "e3_size": "tiny"
+    },
+    "text": "The fabric Kiwi stands massive, whereas f1x5y shows a yellow tint and cubic form, next to the fabric and tiny DX04K."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "QH523",
+      "Tiger",
+      "Bjorn"
+    ],
+    "attributes": {
+      "e1_room": "room-102",
+      "e1_state": "busy",
+      "e2_zone": "sector-1",
+      "e2_position": "east",
+      "e3_room": "room-101"
+    },
+    "text": "Located in room-102, QH523 operates busy, as Tiger functions from sector-1 in east, with Bjorn situated in room-101."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "{e1} operates {e1_state} in {e1_zone} as {e1_role}, while {e2} maintains {e2_efficiency} at {e2_position} with {e2_task}, and {e3} runs {e3_mode} in {e3_room}.",
+    "entities": [
+      "q5y8z",
+      "Giovanni",
+      "Sensor02"
+    ],
+    "attributes": {
+      "e1_state": "ready",
+      "e1_zone": "sector-2",
+      "e1_role": "monitor",
+      "e2_efficiency": "costly",
+      "e2_position": "south",
+      "e2_task": "storing",
+      "e3_mode": "hybrid",
+      "e3_room": "room-101"
+    },
+    "text": "q5y8z operates ready in sector-2 as monitor, while Giovanni maintains costly at south with storing, and Sensor02 runs hybrid in room-101."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "entities": [
+      "p1a4b",
+      "HJ845",
+      "Juan"
+    ],
+    "attributes": {
+      "e1_task": "computing",
+      "e1_frequency": "continuous",
+      "e2_duration": "permanent",
+      "e2_phase": "transitional",
+      "e3_task": "filtering",
+      "e3_frequency": "monthly"
+    },
+    "text": "p1a4b performs computing continuous, while HJ845 operates on permanent cycles in transitional, and Juan executes filtering at monthly intervals."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "E5NY9",
+      "Router01",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_material": "metal",
+      "e1_size": "small",
+      "e2_color": "black",
+      "e2_shape": "cylindrical",
+      "e3_material": "fabric",
+      "e3_size": "compact"
+    },
+    "text": "The metal E5NY9 stands small, whereas Router01 shows a black tint and cylindrical form, next to the fabric and compact Beacon14."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "N13PQ",
+      "Mu",
+      "Gateway07"
+    ],
+    "attributes": {
+      "e1_role": "receiver",
+      "e1_task": "computing",
+      "e2_task": "scanning",
+      "e2_mode": "automatic",
+      "e3_role": "transmitter",
+      "e3_task": "storing"
+    },
+    "text": "The receiver N13PQ executes computing processing, as Mu handles scanning in automatic, while Gateway07 maintains its transmitter with storing responsibility."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "w5h6j",
+      "M2B76",
+      "m9f7g"
+    ],
+    "attributes": {
+      "e1_role": "monitor",
+      "e1_task": "backup",
+      "e2_mode": "automatic",
+      "e2_task": "computing",
+      "e3_role": "transmitter",
+      "e3_mode": "emergency"
+    },
+    "text": "w5h6j serves as monitor performing backup, while M2B76 functions in automatic for computing, and m9f7g operates as transmitter with emergency control."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "y9e4a",
+      "Ziggy",
+      "Gateway07"
+    ],
+    "attributes": {
+      "e1_phase": "transitional",
+      "e1_frequency": "monthly",
+      "e2_duration": "extended",
+      "e3_task": "routing",
+      "e3_phase": "middle"
+    },
+    "text": "During its transitional stage, y9e4a runs monthly checks, as Ziggy maintains extended operations, and Gateway07 completes routing in middle."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "z8b3c",
+      "Client17",
+      "Milo"
+    ],
+    "attributes": {
+      "e1_phase": "initial",
+      "e1_frequency": "continuous",
+      "e2_duration": "variable",
+      "e3_task": "routing",
+      "e3_phase": "final"
+    },
+    "text": "During its initial stage, z8b3c runs continuous checks, as Client17 maintains variable operations, and Milo completes routing in final."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Sora",
+      "Device03",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_room": "hall-1",
+      "e1_state": "active",
+      "e2_zone": "zone-A",
+      "e2_position": "north",
+      "e3_room": "office-1"
+    },
+    "text": "Located in hall-1, Sora operates active, as Device03 functions from zone-A in north, with Beacon14 situated in office-1."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "Scanner13",
+      "Whiskers",
+      "F6T832"
+    ],
+    "attributes": {
+      "e1_mode": "automatic",
+      "e1_efficiency": "inefficient",
+      "e2_state": "busy",
+      "e2_speed": "sluggish",
+      "e3_reliability": "unreliable"
+    },
+    "text": "Operating automatic, Scanner13 shows inefficient performance, Whiskers functions in busy state at sluggish, and F6T832 demonstrates unreliable execution."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "z8b3c",
+      "u3p7q",
+      "Atlas"
+    ],
+    "attributes": {
+      "e1_phase": "pending",
+      "e1_frequency": "periodic",
+      "e2_duration": "permanent",
+      "e3_task": "computing",
+      "e3_phase": "initial"
+    },
+    "text": "During its pending stage, z8b3c runs periodic checks, as u3p7q maintains permanent operations, and Atlas completes computing in initial."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "Epsilon",
+      "Gateway07",
+      "M2B76"
+    ],
+    "attributes": {
+      "e1_mode": "hybrid",
+      "e1_efficiency": "wasteful",
+      "e2_state": "offline",
+      "e2_speed": "fast",
+      "e3_reliability": "unstable"
+    },
+    "text": "Operating hybrid, Epsilon shows wasteful performance, Gateway07 functions in offline state at fast, and M2B76 demonstrates unstable execution."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "n6c2d",
+      "Aisha",
+      "Mu"
+    ],
+    "attributes": {
+      "e1_color": "silver",
+      "e1_task": "filtering",
+      "e1_speed": "delayed",
+      "e2_state": "idle",
+      "e2_mode": "maintenance",
+      "e3_zone": "zone-C",
+      "e3_phase": "transitional"
+    },
+    "text": "The silver n6c2d performs filtering at delayed, as Aisha functions idle in maintenance, while Mu operates from zone-C in transitional."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Iota",
+      "LR451",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_color": "white",
+      "e1_size": "huge",
+      "e2_material": "metal",
+      "e2_shape": "square",
+      "e3_color": "white",
+      "e3_size": "massive"
+    },
+    "text": "Iota is white in color and huge, while LR451 appears metal and square, and Beacon14 remains white and massive."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "Epsilon",
+      "Atlas",
+      "Oreo"
+    ],
+    "attributes": {
+      "e1_role": "controller",
+      "e1_task": "backup",
+      "e2_mode": "standard",
+      "e2_task": "computing",
+      "e3_role": "transmitter",
+      "e3_mode": "manual"
+    },
+    "text": "Epsilon serves as controller performing backup, while Atlas functions in standard for computing, and Oreo operates as transmitter with manual control."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "v4m2n",
+      "Rho",
+      "Monitor18"
+    ],
+    "attributes": {
+      "e1_role": "processor",
+      "e1_task": "computing",
+      "e2_task": "routing",
+      "e2_mode": "maintenance",
+      "e3_role": "processor",
+      "e3_task": "computing"
+    },
+    "text": "The processor v4m2n executes computing processing, as Rho handles routing in maintenance, while Monitor18 maintains its processor with computing responsibility."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "Milo",
+      "QH523",
+      "Oreo"
+    ],
+    "attributes": {
+      "e1_mode": "standard",
+      "e1_efficiency": "wasteful",
+      "e2_state": "active",
+      "e2_speed": "fast",
+      "e3_reliability": "unreliable"
+    },
+    "text": "Operating standard, Milo shows wasteful performance, QH523 functions in active state at fast, and Oreo demonstrates unreliable execution."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Lambda",
+      "k5m2n",
+      "BK291"
+    ],
+    "attributes": {
+      "e1_color": "golden",
+      "e1_size": "tiny",
+      "e2_material": "plastic",
+      "e2_shape": "round",
+      "e3_color": "black",
+      "e3_size": "small"
+    },
+    "text": "Lambda is golden in color and tiny, while k5m2n appears plastic and round, and BK291 remains black and small."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Chen",
+      "Upsilon",
+      "Switch11"
+    ],
+    "attributes": {
+      "e1_phase": "transitional",
+      "e1_frequency": "periodic",
+      "e2_duration": "fixed",
+      "e3_task": "computing",
+      "e3_phase": "middle"
+    },
+    "text": "During its transitional stage, Chen runs periodic checks, as Upsilon maintains fixed operations, and Switch11 completes computing in middle."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "Module08",
+      "Kiwi",
+      "Lambda"
+    ],
+    "attributes": {
+      "e1_color": "black",
+      "e1_task": "storing",
+      "e1_speed": "rapid",
+      "e2_state": "standby",
+      "e2_mode": "maintenance",
+      "e3_zone": "sector-3",
+      "e3_phase": "transitional"
+    },
+    "text": "The black Module08 performs storing at rapid, as Kiwi functions standby in maintenance, while Lambda operates from sector-3 in transitional."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "h2s6t",
+      "Ravi",
+      "Whiskers"
+    ],
+    "attributes": {
+      "e1_color": "golden",
+      "e1_size": "large",
+      "e2_material": "glass",
+      "e2_shape": "square",
+      "e3_color": "red",
+      "e3_size": "tiny"
+    },
+    "text": "h2s6t is golden in color and large, while Ravi appears glass and square, and Whiskers remains red and tiny."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "Sensor02",
+      "Ziggy",
+      "Device03"
+    ],
+    "attributes": {
+      "e1_state": "ready",
+      "e1_speed": "sluggish",
+      "e2_efficiency": "efficient",
+      "e2_mode": "automatic",
+      "e3_state": "offline",
+      "e3_reliability": "stable"
+    },
+    "text": "Sensor02 runs in a ready condition at sluggish, as Ziggy maintains efficient processing in automatic, while Device03 operates offline with stable."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "Upsilon",
+      "Bridge06",
+      "m9f7g"
+    ],
+    "attributes": {
+      "e1_role": "processor",
+      "e1_task": "scanning",
+      "e2_task": "computing",
+      "e2_mode": "maintenance",
+      "e3_role": "transmitter",
+      "e3_task": "computing"
+    },
+    "text": "The processor Upsilon executes scanning processing, as Bridge06 handles computing in maintenance, while m9f7g maintains its transmitter with computing responsibility."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "Pi",
+      "Tiger",
+      "Elena"
+    ],
+    "attributes": {
+      "e1_role": "receiver",
+      "e1_task": "filtering",
+      "e2_task": "filtering",
+      "e2_mode": "standard",
+      "e3_role": "monitor",
+      "e3_task": "backup"
+    },
+    "text": "The receiver Pi executes filtering processing, as Tiger handles filtering in standard, while Elena maintains its monitor with backup responsibility."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "entities": [
+      "z8b3c",
+      "HJ845",
+      "Bridge06"
+    ],
+    "attributes": {
+      "e1_zone": "sector-2",
+      "e1_position": "top",
+      "e2_room": "room-101",
+      "e2_state": "idle",
+      "e3_zone": "zone-B",
+      "e3_position": "south"
+    },
+    "text": "Within sector-2, z8b3c occupies top placement, while HJ845 resides in room-101 maintaining idle, and Bridge06 is stationed at zone-B in south."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Ziggy",
+      "F6T832",
+      "Upsilon"
+    ],
+    "attributes": {
+      "e1_phase": "middle",
+      "e1_frequency": "continuous",
+      "e2_duration": "brief",
+      "e3_task": "storing",
+      "e3_phase": "pending"
+    },
+    "text": "During its middle stage, Ziggy runs continuous checks, as F6T832 maintains brief operations, and Upsilon completes storing in pending."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "{e1} operates {e1_state} in {e1_zone} as {e1_role}, while {e2} maintains {e2_efficiency} at {e2_position} with {e2_task}, and {e3} runs {e3_mode} in {e3_room}.",
+    "entities": [
+      "T8K4L",
+      "Felix",
+      "Omar"
+    ],
+    "attributes": {
+      "e1_state": "active",
+      "e1_zone": "sector-2",
+      "e1_role": "monitor",
+      "e2_efficiency": "economical",
+      "e2_position": "east",
+      "e2_task": "backup",
+      "e3_mode": "manual",
+      "e3_room": "room-102"
+    },
+    "text": "T8K4L operates active in sector-2 as monitor, while Felix maintains economical at east with backup, and Omar runs manual in room-102."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "Unit05",
+      "j7p4q",
+      "Whiskers"
+    ],
+    "attributes": {
+      "e1_role": "analyzer",
+      "e1_task": "backup",
+      "e2_mode": "emergency",
+      "e2_task": "scanning",
+      "e3_role": "receiver",
+      "e3_mode": "maintenance"
+    },
+    "text": "Unit05 serves as analyzer performing backup, while j7p4q functions in emergency for scanning, and Whiskers operates as receiver with maintenance control."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "Eta",
+      "Client17",
+      "Juan"
+    ],
+    "attributes": {
+      "e1_color": "blue",
+      "e1_task": "computing",
+      "e1_speed": "swift",
+      "e2_state": "ready",
+      "e2_mode": "hybrid",
+      "e3_zone": "sector-3",
+      "e3_phase": "initial"
+    },
+    "text": "The blue Eta performs computing at swift, as Client17 functions ready in hybrid, while Juan operates from sector-3 in initial."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}.",
+    "entities": [
+      "Scout",
+      "Daisy",
+      "LR451"
+    ],
+    "attributes": {
+      "e1_material": "ceramic",
+      "e1_size": "tiny",
+      "e2_color": "yellow",
+      "e2_shape": "cylindrical",
+      "e3_material": "ceramic",
+      "e3_size": "tiny"
+    },
+    "text": "The ceramic Scout stands tiny, whereas Daisy shows a yellow tint and cylindrical form, next to the ceramic and tiny LR451."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Client17",
+      "r7w3x",
+      "K10X7"
+    ],
+    "attributes": {
+      "e1_room": "lab-1",
+      "e1_state": "offline",
+      "e2_zone": "zone-A",
+      "e2_position": "west",
+      "e3_room": "hall-1"
+    },
+    "text": "Located in lab-1, Client17 operates offline, as r7w3x functions from zone-A in west, with K10X7 situated in hall-1."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Lambda",
+      "Atlas",
+      "m9f7g"
+    ],
+    "attributes": {
+      "e1_room": "room-102",
+      "e1_state": "ready",
+      "e2_zone": "zone-A",
+      "e2_position": "east",
+      "e3_room": "lab-1"
+    },
+    "text": "Located in room-102, Lambda operates ready, as Atlas functions from zone-A in east, with m9f7g situated in lab-1."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Router01",
+      "s2r9v",
+      "Gamma"
+    ],
+    "attributes": {
+      "e1_phase": "pending",
+      "e1_frequency": "periodic",
+      "e2_duration": "fixed",
+      "e3_task": "filtering",
+      "e3_phase": "current"
+    },
+    "text": "During its pending stage, Router01 runs periodic checks, as s2r9v maintains fixed operations, and Gamma completes filtering in current."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "y9e4a",
+      "Server16",
+      "w5h6j"
+    ],
+    "attributes": {
+      "e1_mode": "hybrid",
+      "e1_efficiency": "efficient",
+      "e2_state": "ready",
+      "e2_speed": "slow",
+      "e3_reliability": "unreliable"
+    },
+    "text": "Operating hybrid, y9e4a shows efficient performance, Server16 functions in ready state at slow, and w5h6j demonstrates unreliable execution."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "f1x5y",
+      "Indira",
+      "Alpha"
+    ],
+    "attributes": {
+      "e1_room": "bay-1",
+      "e1_state": "busy",
+      "e2_zone": "zone-A",
+      "e2_position": "east",
+      "e3_room": "hall-1"
+    },
+    "text": "Located in bay-1, f1x5y operates busy, as Indira functions from zone-A in east, with Alpha situated in hall-1."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Daisy",
+      "Honey",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_room": "office-1",
+      "e1_state": "active",
+      "e2_zone": "sector-3",
+      "e2_position": "top",
+      "e3_room": "room-102"
+    },
+    "text": "Located in office-1, Daisy operates active, as Honey functions from sector-3 in top, with Beacon14 situated in room-102."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Kappa",
+      "Priya",
+      "Bridge06"
+    ],
+    "attributes": {
+      "e1_phase": "final",
+      "e1_frequency": "continuous",
+      "e2_duration": "temporary",
+      "e3_task": "storing",
+      "e3_phase": "initial"
+    },
+    "text": "During its final stage, Kappa runs continuous checks, as Priya maintains temporary operations, and Bridge06 completes storing in initial."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "h2s6t",
+      "G71Q",
+      "Jazz"
+    ],
+    "attributes": {
+      "e1_role": "receiver",
+      "e1_task": "computing",
+      "e2_task": "storing",
+      "e2_mode": "emergency",
+      "e3_role": "controller",
+      "e3_task": "filtering"
+    },
+    "text": "The receiver h2s6t executes computing processing, as G71Q handles storing in emergency, while Jazz maintains its controller with filtering responsibility."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "Hiroshi",
+      "C7D9",
+      "m9f7g"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_task": "filtering",
+      "e1_speed": "fast",
+      "e2_state": "active",
+      "e2_mode": "manual",
+      "e3_zone": "zone-C",
+      "e3_phase": "pending"
+    },
+    "text": "The yellow Hiroshi performs filtering at fast, as C7D9 functions active in manual, while m9f7g operates from zone-C in pending."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Device03",
+      "K10X7",
+      "Omicron"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_size": "tiny",
+      "e2_material": "ceramic",
+      "e2_shape": "triangular",
+      "e3_color": "white",
+      "e3_size": "compact"
+    },
+    "text": "Device03 is yellow in color and tiny, while K10X7 appears ceramic and triangular, and Omicron remains white and compact."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "u3p7q",
+      "Node04",
+      "Bridge06"
+    ],
+    "attributes": {
+      "e1_mode": "emergency",
+      "e1_efficiency": "costly",
+      "e2_state": "standby",
+      "e2_speed": "sluggish",
+      "e3_reliability": "unreliable"
+    },
+    "text": "Operating emergency, u3p7q shows costly performance, Node04 functions in standby state at sluggish, and Bridge06 demonstrates unreliable execution."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "HJ845",
+      "Alpha",
+      "Pi"
+    ],
+    "attributes": {
+      "e1_color": "white",
+      "e1_task": "routing",
+      "e1_speed": "rapid",
+      "e2_state": "standby",
+      "e2_mode": "automatic",
+      "e3_zone": "zone-A",
+      "e3_phase": "current"
+    },
+    "text": "The white HJ845 performs routing at rapid, as Alpha functions standby in automatic, while Pi operates from zone-A in current."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "Hub10",
+      "Ziggy",
+      "Epsilon"
+    ],
+    "attributes": {
+      "e1_color": "blue",
+      "e1_task": "storing",
+      "e1_speed": "rapid",
+      "e2_state": "busy",
+      "e2_mode": "automatic",
+      "e3_zone": "zone-A",
+      "e3_phase": "transitional"
+    },
+    "text": "The blue Hub10 performs storing at rapid, as Ziggy functions busy in automatic, while Epsilon operates from zone-A in transitional."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}.",
+    "entities": [
+      "Alpha",
+      "y9e4a",
+      "Tiger"
+    ],
+    "attributes": {
+      "e1_room": "hall-1",
+      "e1_state": "standby",
+      "e2_zone": "zone-B",
+      "e2_position": "south",
+      "e3_room": "lab-1"
+    },
+    "text": "Located in hall-1, Alpha operates standby, as y9e4a functions from zone-B in south, with Tiger situated in lab-1."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "R166N",
+      "QH523",
+      "k5m2n"
+    ],
+    "attributes": {
+      "e1_state": "active",
+      "e1_speed": "fast",
+      "e2_efficiency": "economical",
+      "e2_mode": "emergency",
+      "e3_state": "idle",
+      "e3_reliability": "consistent"
+    },
+    "text": "R166N runs in a active condition at fast, as QH523 maintains economical processing in emergency, while k5m2n operates idle with consistent."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "entities": [
+      "Sigma",
+      "t8k4l",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_task": "scanning",
+      "e1_frequency": "daily",
+      "e2_duration": "brief",
+      "e2_phase": "current",
+      "e3_task": "backup",
+      "e3_frequency": "weekly"
+    },
+    "text": "Sigma performs scanning daily, while t8k4l operates on brief cycles in current, and Beacon14 executes backup at weekly intervals."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility.",
+    "entities": [
+      "Elena",
+      "E5NY9",
+      "v4m2n"
+    ],
+    "attributes": {
+      "e1_role": "monitor",
+      "e1_task": "routing",
+      "e2_task": "filtering",
+      "e2_mode": "automatic",
+      "e3_role": "analyzer",
+      "e3_task": "filtering"
+    },
+    "text": "The monitor Elena executes routing processing, as E5NY9 handles filtering in automatic, while v4m2n maintains its analyzer with filtering responsibility."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "entities": [
+      "m9f7g",
+      "Honey",
+      "Scout"
+    ],
+    "attributes": {
+      "e1_state": "standby",
+      "e1_speed": "rapid",
+      "e2_efficiency": "efficient",
+      "e2_mode": "emergency",
+      "e3_state": "busy",
+      "e3_reliability": "unstable"
+    },
+    "text": "m9f7g runs in a standby condition at rapid, as Honey maintains efficient processing in emergency, while Scout operates busy with unstable."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "entities": [
+      "Omicron",
+      "C7D9",
+      "u3p7q"
+    ],
+    "attributes": {
+      "e1_zone": "sector-3",
+      "e1_position": "bottom",
+      "e2_room": "bay-1",
+      "e2_state": "idle",
+      "e3_zone": "zone-B",
+      "e3_position": "north"
+    },
+    "text": "Within sector-3, Omicron occupies bottom placement, while C7D9 resides in bay-1 maintaining idle, and u3p7q is stationed at zone-B in north."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "X742",
+      "Upsilon",
+      "v4m2n"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_size": "small",
+      "e2_material": "ceramic",
+      "e2_shape": "spherical",
+      "e3_color": "white",
+      "e3_size": "compact"
+    },
+    "text": "X742 is yellow in color and small, while Upsilon appears ceramic and spherical, and v4m2n remains white and compact."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Monitor18",
+      "Banjo",
+      "Atlas"
+    ],
+    "attributes": {
+      "e1_phase": "initial",
+      "e1_frequency": "daily",
+      "e2_duration": "variable",
+      "e3_task": "computing",
+      "e3_phase": "pending"
+    },
+    "text": "During its initial stage, Monitor18 runs daily checks, as Banjo maintains variable operations, and Atlas completes computing in pending."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "y9e4a",
+      "Whiskers",
+      "Beacon14"
+    ],
+    "attributes": {
+      "e1_color": "red",
+      "e1_task": "routing",
+      "e1_speed": "swift",
+      "e2_state": "offline",
+      "e2_mode": "hybrid",
+      "e3_zone": "zone-A",
+      "e3_phase": "middle"
+    },
+    "text": "The red y9e4a performs routing at swift, as Whiskers functions offline in hybrid, while Beacon14 operates from zone-A in middle."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "U9X5J",
+      "Relay15",
+      "k5m2n"
+    ],
+    "attributes": {
+      "e1_role": "transmitter",
+      "e1_task": "scanning",
+      "e2_mode": "standard",
+      "e2_task": "filtering",
+      "e3_role": "monitor",
+      "e3_mode": "standard"
+    },
+    "text": "U9X5J serves as transmitter performing scanning, while Relay15 functions in standard for filtering, and k5m2n operates as monitor with standard control."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Alpha",
+      "Yuki",
+      "P4WX8"
+    ],
+    "attributes": {
+      "e1_phase": "current",
+      "e1_frequency": "monthly",
+      "e2_duration": "permanent",
+      "e3_task": "scanning",
+      "e3_phase": "pending"
+    },
+    "text": "During its current stage, Alpha runs monthly checks, as Yuki maintains permanent operations, and P4WX8 completes scanning in pending."
+  },
+  {
+    "context_type": "operational_context",
+    "template": "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution.",
+    "entities": [
+      "q5y8z",
+      "Nu",
+      "Sensor02"
+    ],
+    "attributes": {
+      "e1_mode": "manual",
+      "e1_efficiency": "costly",
+      "e2_state": "offline",
+      "e2_speed": "fast",
+      "e3_reliability": "erratic"
+    },
+    "text": "Operating manual, q5y8z shows costly performance, Nu functions in offline state at fast, and Sensor02 demonstrates erratic execution."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "entities": [
+      "Lucia",
+      "BK291",
+      "Device03"
+    ],
+    "attributes": {
+      "e1_zone": "zone-B",
+      "e1_position": "north",
+      "e2_room": "lab-1",
+      "e2_state": "idle",
+      "e3_zone": "zone-C",
+      "e3_position": "south"
+    },
+    "text": "Within zone-B, Lucia occupies north placement, while BK291 resides in lab-1 maintaining idle, and Device03 is stationed at zone-C in south."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "r7w3x",
+      "l3h8j",
+      "Sigma"
+    ],
+    "attributes": {
+      "e1_role": "monitor",
+      "e1_task": "backup",
+      "e2_mode": "hybrid",
+      "e2_task": "routing",
+      "e3_role": "processor",
+      "e3_mode": "hybrid"
+    },
+    "text": "r7w3x serves as monitor performing backup, while l3h8j functions in hybrid for routing, and Sigma operates as processor with hybrid control."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "entities": [
+      "w5h6j",
+      "Jazz",
+      "Lambda"
+    ],
+    "attributes": {
+      "e1_task": "scanning",
+      "e1_frequency": "monthly",
+      "e2_duration": "fixed",
+      "e2_phase": "current",
+      "e3_task": "filtering",
+      "e3_frequency": "weekly"
+    },
+    "text": "w5h6j performs scanning monthly, while Jazz operates on fixed cycles in current, and Lambda executes filtering at weekly intervals."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "LR451",
+      "J9MP2",
+      "Upsilon"
+    ],
+    "attributes": {
+      "e1_color": "green",
+      "e1_size": "tiny",
+      "e2_material": "plastic",
+      "e2_shape": "square",
+      "e3_color": "yellow",
+      "e3_size": "massive"
+    },
+    "text": "LR451 is green in color and tiny, while J9MP2 appears plastic and square, and Upsilon remains yellow and massive."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Rho",
+      "u3p7q",
+      "q5y8z"
+    ],
+    "attributes": {
+      "e1_phase": "final",
+      "e1_frequency": "monthly",
+      "e2_duration": "fixed",
+      "e3_task": "routing",
+      "e3_phase": "middle"
+    },
+    "text": "During its final stage, Rho runs monthly checks, as u3p7q maintains fixed operations, and q5y8z completes routing in middle."
+  },
+  {
+    "context_type": "temporal_context",
+    "template": "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}.",
+    "entities": [
+      "Port20",
+      "Bridge06",
+      "Beta"
+    ],
+    "attributes": {
+      "e1_phase": "transitional",
+      "e1_frequency": "monthly",
+      "e2_duration": "variable",
+      "e3_task": "computing",
+      "e3_phase": "final"
+    },
+    "text": "During its transitional stage, Port20 runs monthly checks, as Bridge06 maintains variable operations, and Beta completes computing in final."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "{e1} operates {e1_state} in {e1_zone} as {e1_role}, while {e2} maintains {e2_efficiency} at {e2_position} with {e2_task}, and {e3} runs {e3_mode} in {e3_room}.",
+    "entities": [
+      "Mu",
+      "Rho",
+      "Relay15"
+    ],
+    "attributes": {
+      "e1_state": "ready",
+      "e1_zone": "zone-A",
+      "e1_role": "transmitter",
+      "e2_efficiency": "wasteful",
+      "e2_position": "south",
+      "e2_task": "filtering",
+      "e3_mode": "hybrid",
+      "e3_room": "lab-1"
+    },
+    "text": "Mu operates ready in zone-A as transmitter, while Rho maintains wasteful at south with filtering, and Relay15 runs hybrid in lab-1."
+  },
+  {
+    "context_type": "physical_context",
+    "template": "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "entities": [
+      "Nadia",
+      "S7V92",
+      "g8v3w"
+    ],
+    "attributes": {
+      "e1_color": "yellow",
+      "e1_size": "small",
+      "e2_material": "metal",
+      "e2_shape": "cubic",
+      "e3_color": "black",
+      "e3_size": "large"
+    },
+    "text": "Nadia is yellow in color and small, while S7V92 appears metal and cubic, and g8v3w remains black and large."
+  },
+  {
+    "context_type": "mixed_context",
+    "template": "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}.",
+    "entities": [
+      "Yuki",
+      "Module08",
+      "Lambda"
+    ],
+    "attributes": {
+      "e1_color": "silver",
+      "e1_task": "filtering",
+      "e1_speed": "sluggish",
+      "e2_state": "ready",
+      "e2_mode": "emergency",
+      "e3_zone": "sector-1",
+      "e3_phase": "pending"
+    },
+    "text": "The silver Yuki performs filtering at sluggish, as Module08 functions ready in emergency, while Lambda operates from sector-1 in pending."
+  },
+  {
+    "context_type": "spatial_context",
+    "template": "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "entities": [
+      "Banjo",
+      "Rocky",
+      "Adapter19"
+    ],
+    "attributes": {
+      "e1_zone": "sector-3",
+      "e1_position": "west",
+      "e2_room": "office-1",
+      "e2_state": "active",
+      "e3_zone": "zone-C",
+      "e3_position": "north"
+    },
+    "text": "Within sector-3, Banjo occupies west placement, while Rocky resides in office-1 maintaining active, and Adapter19 is stationed at zone-C in north."
+  },
+  {
+    "context_type": "functional_context",
+    "template": "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "entities": [
+      "Bridge06",
+      "h2s6t",
+      "Zeta"
+    ],
+    "attributes": {
+      "e1_role": "processor",
+      "e1_task": "backup",
+      "e2_mode": "automatic",
+      "e2_task": "scanning",
+      "e3_role": "analyzer",
+      "e3_mode": "maintenance"
+    },
+    "text": "Bridge06 serves as processor performing backup, while h2s6t functions in automatic for scanning, and Zeta operates as analyzer with maintenance control."
+  }
+]

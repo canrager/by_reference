@@ -1,0 +1,26 @@
+{
+  "physical_context": [
+    "{e1} is {e1_color} in color and {e1_size}, while {e2} appears {e2_material} and {e2_shape}, and {e3} remains {e3_color} and {e3_size}.",
+    "The {e1_material} {e1} stands {e1_size}, whereas {e2} shows a {e2_color} tint and {e2_shape} form, next to the {e3_material} and {e3_size} {e3}."
+  ],
+  "operational_context": [
+    "{e1} runs in a {e1_state} condition at {e1_speed}, as {e2} maintains {e2_efficiency} processing in {e2_mode}, while {e3} operates {e3_state} with {e3_reliability}.",
+    "Operating {e1_mode}, {e1} shows {e1_efficiency} performance, {e2} functions in {e2_state} state at {e2_speed}, and {e3} demonstrates {e3_reliability} execution."
+  ],
+  "spatial_context": [
+    "Within {e1_zone}, {e1} occupies {e1_position} placement, while {e2} resides in {e2_room} maintaining {e2_state}, and {e3} is stationed at {e3_zone} in {e3_position}.",
+    "Located in {e1_room}, {e1} operates {e1_state}, as {e2} functions from {e2_zone} in {e2_position}, with {e3} situated in {e3_room}."
+  ],
+  "temporal_context": [
+    "{e1} performs {e1_task} {e1_frequency}, while {e2} operates on {e2_duration} cycles in {e2_phase}, and {e3} executes {e3_task} at {e3_frequency} intervals.",
+    "During its {e1_phase} stage, {e1} runs {e1_frequency} checks, as {e2} maintains {e2_duration} operations, and {e3} completes {e3_task} in {e3_phase}."
+  ],
+  "functional_context": [
+    "{e1} serves as {e1_role} performing {e1_task}, while {e2} functions in {e2_mode} for {e2_task}, and {e3} operates as {e3_role} with {e3_mode} control.",
+    "The {e1_role} {e1} executes {e1_task} processing, as {e2} handles {e2_task} in {e2_mode}, while {e3} maintains its {e3_role} with {e3_task} responsibility."
+  ],
+  "mixed_context": [
+    "{e1} operates {e1_state} in {e1_zone} as {e1_role}, while {e2} maintains {e2_efficiency} at {e2_position} with {e2_task}, and {e3} runs {e3_mode} in {e3_room}.",
+    "The {e1_color} {e1} performs {e1_task} at {e1_speed}, as {e2} functions {e2_state} in {e2_mode}, while {e3} operates from {e3_zone} in {e3_phase}."
+  ]
+}
