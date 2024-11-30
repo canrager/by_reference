@@ -105,7 +105,7 @@ def save_dataset(dataset: List[Dict[str, Any]], output_file: str = 'dataset.json
 def main():
     """Main function to generate and save the dataset."""
     # Generate 100 examples
-    dataset = generate_dataset(100)
+    dataset = generate_dataset(1000)
     
     # Save the dataset
     save_dataset(dataset)
