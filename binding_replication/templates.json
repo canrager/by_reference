@@ -1,0 +1,5 @@
+{
+    "capital_city": [
+      "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of"
+    ]
+  }
