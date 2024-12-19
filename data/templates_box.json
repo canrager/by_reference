@@ -1,4 +1,4 @@
 {
-    "box_templates": ["The {e0_object} is in Box {e0}, the {e1_object} is in Box {e1}, the {e2_object} is in Box {e2}, the {e3_object} is in Box {e3}, and the {e4_object} is in Box {e4}."],
-    "nonbox_templates": ["The {e0_object} is in {e0}, the {e1_object} is in {e1}, the {e2_object} is in {e2}, the {e3_object} is in {e3}, and the {e4_object} is in {e4}."]
+    "box_templates": ["The {e0} is in Box {a0}, the {e1} is in Box {a1}, the {e2} is in Box {a2}, the {e3} is in Box {a3}, and the {e4} is in Box {a4}. Box {a-question} contains the"],
+    "nonbox_templates": ["The {e0} is in {a0}, the {e1} is in {a1}, the {e2} is in {a2}, the {e3} is in {a3}, and the {e4} is in {a4}. Box {a-question} contains the"]
 }

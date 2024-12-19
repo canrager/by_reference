@@ -2,3 +2,4 @@
 *.png
 **/dataset.json
 **/processed_dataset.json
+.python-version
