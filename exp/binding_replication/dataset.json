@@ -1,0 +1,2102 @@
+[
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "David",
+      "Charlotte"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "Argentina"
+      ],
+      "cities": [
+        "Rome",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: David lives in the capital city of Italy.\nCharlotte lives in the capital city of Argentina.\nQuestion: Which city does Charlotte live in?\nAnswer: Charlotte lives in the city of",
+    "qn_subject": "Charlotte",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "David"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "India"
+      ],
+      "cities": [
+        "Moscow",
+        "New Delhi"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Russia.\nDavid lives in the capital city of India.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Moscow"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "Canada",
+        "Germany"
+      ],
+      "cities": [
+        "Ottawa",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of Canada.\nSophia lives in the capital city of Germany.\nQuestion: Which city does Alexander live in?\nAnswer: Alexander lives in the city of",
+    "qn_subject": "Alexander",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "Spain"
+      ],
+      "cities": [
+        "Canberra",
+        "Madrid"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Australia.\nMichael lives in the capital city of Spain.\nQuestion: Which city does Michael live in?\nAnswer: Michael lives in the city of",
+    "qn_subject": "Michael",
+    "answer": "Madrid"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Emma",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "Germany"
+      ],
+      "cities": [
+        "Tokyo",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Emma lives in the capital city of Japan.\nElizabeth lives in the capital city of Germany.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "David",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Germany"
+      ],
+      "cities": [
+        "Paris",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: David lives in the capital city of France.\nMichael lives in the capital city of Germany.\nQuestion: Which city does Michael live in?\nAnswer: Michael lives in the city of",
+    "qn_subject": "Michael",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Isabella",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Canada"
+      ],
+      "cities": [
+        "Beijing",
+        "Ottawa"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Isabella lives in the capital city of China.\nMatthew lives in the capital city of Canada.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Andrew",
+      "Emma"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "Australia"
+      ],
+      "cities": [
+        "Moscow",
+        "Canberra"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Andrew lives in the capital city of Russia.\nEmma lives in the capital city of Australia.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Amelia",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "Australia"
+      ],
+      "cities": [
+        "Seoul",
+        "Canberra"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Amelia lives in the capital city of South Korea.\nMichael lives in the capital city of Australia.\nQuestion: Which city does Michael live in?\nAnswer: Michael lives in the city of",
+    "qn_subject": "Michael",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Daniel"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "Russia"
+      ],
+      "cities": [
+        "New Delhi",
+        "Moscow"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of India.\nDaniel lives in the capital city of Russia.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "New Delhi"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "India"
+      ],
+      "cities": [
+        "Beijing",
+        "New Delhi"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of China.\nMichael lives in the capital city of India.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "Italy"
+      ],
+      "cities": [
+        "Berlin",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Germany.\nJames lives in the capital city of Italy.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Emma",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Argentina"
+      ],
+      "cities": [
+        "Mexico City",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Emma lives in the capital city of Mexico.\nJoseph lives in the capital city of Argentina.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Isabella"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "Spain"
+      ],
+      "cities": [
+        "Berlin",
+        "Madrid"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Germany.\nIsabella lives in the capital city of Spain.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "France"
+      ],
+      "cities": [
+        "Seoul",
+        "Paris"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of South Korea.\nJames lives in the capital city of France.\nQuestion: Which city does Alexander live in?\nAnswer: Alexander lives in the city of",
+    "qn_subject": "Alexander",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Olivia",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Beijing",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Olivia lives in the capital city of China.\nMia lives in the capital city of United Kingdom.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Benjamin",
+      "Emma"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Germany"
+      ],
+      "cities": [
+        "Beijing",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Benjamin lives in the capital city of China.\nEmma lives in the capital city of Germany.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Charlotte",
+      "William"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "China"
+      ],
+      "cities": [
+        "London",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Charlotte lives in the capital city of United Kingdom.\nWilliam lives in the capital city of China.\nQuestion: Which city does Charlotte live in?\nAnswer: Charlotte lives in the city of",
+    "qn_subject": "Charlotte",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "Canada",
+        "France"
+      ],
+      "cities": [
+        "Ottawa",
+        "Paris"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of Canada.\nJoseph lives in the capital city of France.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Olivia",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "Brazil"
+      ],
+      "cities": [
+        "Berlin",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Olivia lives in the capital city of Germany.\nMia lives in the capital city of Brazil.\nQuestion: Which city does Olivia live in?\nAnswer: Olivia lives in the city of",
+    "qn_subject": "Olivia",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Harper",
+      "Amelia"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Brazil"
+      ],
+      "cities": [
+        "Paris",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Harper lives in the capital city of France.\nAmelia lives in the capital city of Brazil.\nQuestion: Which city does Harper live in?\nAnswer: Harper lives in the city of",
+    "qn_subject": "Harper",
+    "answer": "Paris"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "William"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "Canada"
+      ],
+      "cities": [
+        "Rome",
+        "Ottawa"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of Italy.\nWilliam lives in the capital city of Canada.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Rome"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Emma"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "Italy"
+      ],
+      "cities": [
+        "Tokyo",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Japan.\nEmma lives in the capital city of Italy.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "William",
+      "Benjamin"
+    ],
+    "attributes": {
+      "countries": [
+        "Argentina",
+        "Italy"
+      ],
+      "cities": [
+        "Buenos Aires",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: William lives in the capital city of Argentina.\nBenjamin lives in the capital city of Italy.\nQuestion: Which city does William live in?\nAnswer: William lives in the city of",
+    "qn_subject": "William",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Canberra",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Australia.\nElizabeth lives in the capital city of United Kingdom.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Michael",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "Germany"
+      ],
+      "cities": [
+        "London",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Michael lives in the capital city of United Kingdom.\nMia lives in the capital city of Germany.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Isabella",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "South Korea"
+      ],
+      "cities": [
+        "Canberra",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Isabella lives in the capital city of Australia.\nJames lives in the capital city of South Korea.\nQuestion: Which city does Isabella live in?\nAnswer: Isabella lives in the city of",
+    "qn_subject": "Isabella",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Harper"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "Mexico"
+      ],
+      "cities": [
+        "Rome",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Italy.\nHarper lives in the capital city of Mexico.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Rome"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Charlotte",
+      "Harper"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "South Korea"
+      ],
+      "cities": [
+        "Canberra",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Charlotte lives in the capital city of Australia.\nHarper lives in the capital city of South Korea.\nQuestion: Which city does Charlotte live in?\nAnswer: Charlotte lives in the city of",
+    "qn_subject": "Charlotte",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "Argentina",
+        "Germany"
+      ],
+      "cities": [
+        "Buenos Aires",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Argentina.\nMatthew lives in the capital city of Germany.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Amelia",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "China"
+      ],
+      "cities": [
+        "Rome",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Amelia lives in the capital city of Italy.\nMatthew lives in the capital city of China.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Daniel",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "Spain",
+        "Brazil"
+      ],
+      "cities": [
+        "Madrid",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Daniel lives in the capital city of Spain.\nMatthew lives in the capital city of Brazil.\nQuestion: Which city does Daniel live in?\nAnswer: Daniel lives in the city of",
+    "qn_subject": "Daniel",
+    "answer": "Madrid"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Andrew"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "China"
+      ],
+      "cities": [
+        "Moscow",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Russia.\nAndrew lives in the capital city of China.\nQuestion: Which city does Andrew live in?\nAnswer: Andrew lives in the city of",
+    "qn_subject": "Andrew",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "David"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "South Korea"
+      ],
+      "cities": [
+        "Paris",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of France.\nDavid lives in the capital city of South Korea.\nQuestion: Which city does David live in?\nAnswer: David lives in the city of",
+    "qn_subject": "David",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Daniel",
+      "Olivia"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Argentina"
+      ],
+      "cities": [
+        "Mexico City",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Daniel lives in the capital city of Mexico.\nOlivia lives in the capital city of Argentina.\nQuestion: Which city does Daniel live in?\nAnswer: Daniel lives in the city of",
+    "qn_subject": "Daniel",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "China"
+      ],
+      "cities": [
+        "Rome",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of Italy.\nSophia lives in the capital city of China.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Brazil",
+        "Russia"
+      ],
+      "cities": [
+        "Bras\u00edlia",
+        "Moscow"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of Brazil.\nJames lives in the capital city of Russia.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Moscow"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Charlotte",
+      "Amelia"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "Mexico"
+      ],
+      "cities": [
+        "Canberra",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Charlotte lives in the capital city of Australia.\nAmelia lives in the capital city of Mexico.\nQuestion: Which city does Charlotte live in?\nAnswer: Charlotte lives in the city of",
+    "qn_subject": "Charlotte",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Daniel"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "Canada"
+      ],
+      "cities": [
+        "London",
+        "Ottawa"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of United Kingdom.\nDaniel lives in the capital city of Canada.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "Australia"
+      ],
+      "cities": [
+        "Moscow",
+        "Canberra"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of Russia.\nMia lives in the capital city of Australia.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "China"
+      ],
+      "cities": [
+        "Tokyo",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Japan.\nMichael lives in the capital city of China.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Sophia",
+      "Andrew"
+    ],
+    "attributes": {
+      "countries": [
+        "Argentina",
+        "Japan"
+      ],
+      "cities": [
+        "Buenos Aires",
+        "Tokyo"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Sophia lives in the capital city of Argentina.\nAndrew lives in the capital city of Japan.\nQuestion: Which city does Andrew live in?\nAnswer: Andrew lives in the city of",
+    "qn_subject": "Andrew",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Emma",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "Brazil"
+      ],
+      "cities": [
+        "Seoul",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Emma lives in the capital city of South Korea.\nSophia lives in the capital city of Brazil.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "David",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "Mexico"
+      ],
+      "cities": [
+        "Seoul",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: David lives in the capital city of South Korea.\nMia lives in the capital city of Mexico.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Mexico"
+      ],
+      "cities": [
+        "Beijing",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of China.\nElizabeth lives in the capital city of Mexico.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Olivia",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "Germany"
+      ],
+      "cities": [
+        "Seoul",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Olivia lives in the capital city of South Korea.\nMia lives in the capital city of Germany.\nQuestion: Which city does Olivia live in?\nAnswer: Olivia lives in the city of",
+    "qn_subject": "Olivia",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Berlin",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Germany.\nJoseph lives in the capital city of United Kingdom.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Harper",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Japan"
+      ],
+      "cities": [
+        "Mexico City",
+        "Tokyo"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Harper lives in the capital city of Mexico.\nJames lives in the capital city of Japan.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Andrew",
+      "Isabella"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "India"
+      ],
+      "cities": [
+        "Canberra",
+        "New Delhi"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Andrew lives in the capital city of Australia.\nIsabella lives in the capital city of India.\nQuestion: Which city does Isabella live in?\nAnswer: Isabella lives in the city of",
+    "qn_subject": "Isabella",
+    "answer": "New Delhi"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Charlotte"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "Germany"
+      ],
+      "cities": [
+        "Moscow",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of Russia.\nCharlotte lives in the capital city of Germany.\nQuestion: Which city does Charlotte live in?\nAnswer: Charlotte lives in the city of",
+    "qn_subject": "Charlotte",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Benjamin",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "South Korea"
+      ],
+      "cities": [
+        "Canberra",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Benjamin lives in the capital city of Australia.\nSophia lives in the capital city of South Korea.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "William"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "Russia"
+      ],
+      "cities": [
+        "Berlin",
+        "Moscow"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Germany.\nWilliam lives in the capital city of Russia.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Benjamin",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "China"
+      ],
+      "cities": [
+        "Berlin",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Benjamin lives in the capital city of Germany.\nMatthew lives in the capital city of China.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Spain",
+        "Mexico"
+      ],
+      "cities": [
+        "Madrid",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of Spain.\nJames lives in the capital city of Mexico.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Harper",
+      "Olivia"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Rome",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Harper lives in the capital city of Italy.\nOlivia lives in the capital city of United Kingdom.\nQuestion: Which city does Harper live in?\nAnswer: Harper lives in the city of",
+    "qn_subject": "Harper",
+    "answer": "Rome"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Ava",
+      "Isabella"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "Argentina"
+      ],
+      "cities": [
+        "Canberra",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Ava lives in the capital city of Australia.\nIsabella lives in the capital city of Argentina.\nQuestion: Which city does Ava live in?\nAnswer: Ava lives in the city of",
+    "qn_subject": "Ava",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Italy"
+      ],
+      "cities": [
+        "Beijing",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of China.\nJoseph lives in the capital city of Italy.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Rome"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Brazil"
+      ],
+      "cities": [
+        "Paris",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of France.\nElizabeth lives in the capital city of Brazil.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Paris"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "William",
+      "Benjamin"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "South Korea"
+      ],
+      "cities": [
+        "London",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: William lives in the capital city of United Kingdom.\nBenjamin lives in the capital city of South Korea.\nQuestion: Which city does William live in?\nAnswer: William lives in the city of",
+    "qn_subject": "William",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Emma"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "United Kingdom"
+      ],
+      "cities": [
+        "New Delhi",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of India.\nEmma lives in the capital city of United Kingdom.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Alexander"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "Argentina"
+      ],
+      "cities": [
+        "Tokyo",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Japan.\nAlexander lives in the capital city of Argentina.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Andrew",
+      "Isabella"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "South Korea"
+      ],
+      "cities": [
+        "New Delhi",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Andrew lives in the capital city of India.\nIsabella lives in the capital city of South Korea.\nQuestion: Which city does Isabella live in?\nAnswer: Isabella lives in the city of",
+    "qn_subject": "Isabella",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Beijing",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of China.\nMia lives in the capital city of United Kingdom.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Harper"
+    ],
+    "attributes": {
+      "countries": [
+        "Argentina",
+        "South Korea"
+      ],
+      "cities": [
+        "Buenos Aires",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Argentina.\nHarper lives in the capital city of South Korea.\nQuestion: Which city does Harper live in?\nAnswer: Harper lives in the city of",
+    "qn_subject": "Harper",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Amelia",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "South Korea"
+      ],
+      "cities": [
+        "Moscow",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Amelia lives in the capital city of Russia.\nJames lives in the capital city of South Korea.\nQuestion: Which city does Amelia live in?\nAnswer: Amelia lives in the city of",
+    "qn_subject": "Amelia",
+    "answer": "Moscow"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "Germany"
+      ],
+      "cities": [
+        "London",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of United Kingdom.\nJames lives in the capital city of Germany.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Emma",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Spain"
+      ],
+      "cities": [
+        "Mexico City",
+        "Madrid"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Emma lives in the capital city of Mexico.\nJames lives in the capital city of Spain.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Madrid"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "David",
+      "Ava"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "Mexico"
+      ],
+      "cities": [
+        "Tokyo",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: David lives in the capital city of Japan.\nAva lives in the capital city of Mexico.\nQuestion: Which city does David live in?\nAnswer: David lives in the city of",
+    "qn_subject": "David",
+    "answer": "Tokyo"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "William",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Paris",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: William lives in the capital city of France.\nJames lives in the capital city of United Kingdom.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Sophia",
+      "Daniel"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Japan"
+      ],
+      "cities": [
+        "Paris",
+        "Tokyo"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Sophia lives in the capital city of France.\nDaniel lives in the capital city of Japan.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Paris"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "Argentina",
+        "Germany"
+      ],
+      "cities": [
+        "Buenos Aires",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of Argentina.\nJoseph lives in the capital city of Germany.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Andrew",
+      "Alexander"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "India"
+      ],
+      "cities": [
+        "Berlin",
+        "New Delhi"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Andrew lives in the capital city of Germany.\nAlexander lives in the capital city of India.\nQuestion: Which city does Alexander live in?\nAnswer: Alexander lives in the city of",
+    "qn_subject": "Alexander",
+    "answer": "New Delhi"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "Ava"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "Canada"
+      ],
+      "cities": [
+        "Canberra",
+        "Ottawa"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of Australia.\nAva lives in the capital city of Canada.\nQuestion: Which city does Ava live in?\nAnswer: Ava lives in the city of",
+    "qn_subject": "Ava",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Sophia",
+      "Olivia"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Argentina"
+      ],
+      "cities": [
+        "Paris",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Sophia lives in the capital city of France.\nOlivia lives in the capital city of Argentina.\nQuestion: Which city does Olivia live in?\nAnswer: Olivia lives in the city of",
+    "qn_subject": "Olivia",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Sophia",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "South Korea"
+      ],
+      "cities": [
+        "Canberra",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Sophia lives in the capital city of Australia.\nJames lives in the capital city of South Korea.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Ava",
+      "Harper"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "China"
+      ],
+      "cities": [
+        "Mexico City",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Ava lives in the capital city of Mexico.\nHarper lives in the capital city of China.\nQuestion: Which city does Ava live in?\nAnswer: Ava lives in the city of",
+    "qn_subject": "Ava",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "James",
+      "Matthew"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "South Korea"
+      ],
+      "cities": [
+        "New Delhi",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: James lives in the capital city of India.\nMatthew lives in the capital city of South Korea.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Alexander"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "Brazil"
+      ],
+      "cities": [
+        "Moscow",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Russia.\nAlexander lives in the capital city of Brazil.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Moscow"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Benjamin",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "Germany",
+        "France"
+      ],
+      "cities": [
+        "Berlin",
+        "Paris"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Benjamin lives in the capital city of Germany.\nSophia lives in the capital city of France.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Paris"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Italy"
+      ],
+      "cities": [
+        "Beijing",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of China.\nSophia lives in the capital city of Italy.\nQuestion: Which city does Alexander live in?\nAnswer: Alexander lives in the city of",
+    "qn_subject": "Alexander",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Harper",
+      "William"
+    ],
+    "attributes": {
+      "countries": [
+        "Italy",
+        "China"
+      ],
+      "cities": [
+        "Rome",
+        "Beijing"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Harper lives in the capital city of Italy.\nWilliam lives in the capital city of China.\nQuestion: Which city does William live in?\nAnswer: William lives in the city of",
+    "qn_subject": "William",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "William",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Australia"
+      ],
+      "cities": [
+        "Mexico City",
+        "Canberra"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: William lives in the capital city of Mexico.\nElizabeth lives in the capital city of Australia.\nQuestion: Which city does Elizabeth live in?\nAnswer: Elizabeth lives in the city of",
+    "qn_subject": "Elizabeth",
+    "answer": "Canberra"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Ava",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "Australia",
+        "Russia"
+      ],
+      "cities": [
+        "Canberra",
+        "Moscow"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Ava lives in the capital city of Australia.\nMia lives in the capital city of Russia.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Moscow"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Elizabeth"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "South Korea"
+      ],
+      "cities": [
+        "New Delhi",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of India.\nElizabeth lives in the capital city of South Korea.\nQuestion: Which city does Alexander live in?\nAnswer: Alexander lives in the city of",
+    "qn_subject": "Alexander",
+    "answer": "New Delhi"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "William",
+      "Emma"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Brazil"
+      ],
+      "cities": [
+        "Mexico City",
+        "Bras\u00edlia"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: William lives in the capital city of Mexico.\nEmma lives in the capital city of Brazil.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Bras\u00edlia"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Olivia"
+    ],
+    "attributes": {
+      "countries": [
+        "India",
+        "Spain"
+      ],
+      "cities": [
+        "New Delhi",
+        "Madrid"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of India.\nOlivia lives in the capital city of Spain.\nQuestion: Which city does Olivia live in?\nAnswer: Olivia lives in the city of",
+    "qn_subject": "Olivia",
+    "answer": "Madrid"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "Russia",
+        "Argentina"
+      ],
+      "cities": [
+        "Moscow",
+        "Buenos Aires"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of Russia.\nSophia lives in the capital city of Argentina.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Buenos Aires"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Benjamin",
+      "Olivia"
+    ],
+    "attributes": {
+      "countries": [
+        "United Kingdom",
+        "Germany"
+      ],
+      "cities": [
+        "London",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Benjamin lives in the capital city of United Kingdom.\nOlivia lives in the capital city of Germany.\nQuestion: Which city does Benjamin live in?\nAnswer: Benjamin lives in the city of",
+    "qn_subject": "Benjamin",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Sophia",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Germany"
+      ],
+      "cities": [
+        "Paris",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Sophia lives in the capital city of France.\nJames lives in the capital city of Germany.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Paris"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "Michael"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Italy"
+      ],
+      "cities": [
+        "Beijing",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of China.\nMichael lives in the capital city of Italy.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "China",
+        "Italy"
+      ],
+      "cities": [
+        "Beijing",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of China.\nMia lives in the capital city of Italy.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Beijing"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Alexander",
+      "Mia"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Mexico"
+      ],
+      "cities": [
+        "Paris",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Alexander lives in the capital city of France.\nMia lives in the capital city of Mexico.\nQuestion: Which city does Mia live in?\nAnswer: Mia lives in the city of",
+    "qn_subject": "Mia",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Matthew",
+      "Ava"
+    ],
+    "attributes": {
+      "countries": [
+        "Canada",
+        "Italy"
+      ],
+      "cities": [
+        "Ottawa",
+        "Rome"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Matthew lives in the capital city of Canada.\nAva lives in the capital city of Italy.\nQuestion: Which city does Matthew live in?\nAnswer: Matthew lives in the city of",
+    "qn_subject": "Matthew",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Joseph",
+      "Sophia"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "South Korea"
+      ],
+      "cities": [
+        "Paris",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Joseph lives in the capital city of France.\nSophia lives in the capital city of South Korea.\nQuestion: Which city does Sophia live in?\nAnswer: Sophia lives in the city of",
+    "qn_subject": "Sophia",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "David",
+      "James"
+    ],
+    "attributes": {
+      "countries": [
+        "Canada",
+        "United Kingdom"
+      ],
+      "cities": [
+        "Ottawa",
+        "London"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: David lives in the capital city of Canada.\nJames lives in the capital city of United Kingdom.\nQuestion: Which city does James live in?\nAnswer: James lives in the city of",
+    "qn_subject": "James",
+    "answer": "London"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Elizabeth",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "South Korea",
+        "Mexico"
+      ],
+      "cities": [
+        "Seoul",
+        "Mexico City"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Elizabeth lives in the capital city of South Korea.\nJoseph lives in the capital city of Mexico.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Mexico City"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Emma",
+      "Daniel"
+    ],
+    "attributes": {
+      "countries": [
+        "Canada",
+        "Australia"
+      ],
+      "cities": [
+        "Ottawa",
+        "Canberra"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Emma lives in the capital city of Canada.\nDaniel lives in the capital city of Australia.\nQuestion: Which city does Emma live in?\nAnswer: Emma lives in the city of",
+    "qn_subject": "Emma",
+    "answer": "Ottawa"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Mia",
+      "Joseph"
+    ],
+    "attributes": {
+      "countries": [
+        "France",
+        "Germany"
+      ],
+      "cities": [
+        "Paris",
+        "Berlin"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Mia lives in the capital city of France.\nJoseph lives in the capital city of Germany.\nQuestion: Which city does Joseph live in?\nAnswer: Joseph lives in the city of",
+    "qn_subject": "Joseph",
+    "answer": "Berlin"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Isabella",
+      "Andrew"
+    ],
+    "attributes": {
+      "countries": [
+        "Japan",
+        "South Korea"
+      ],
+      "cities": [
+        "Tokyo",
+        "Seoul"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Isabella lives in the capital city of Japan.\nAndrew lives in the capital city of South Korea.\nQuestion: Which city does Andrew live in?\nAnswer: Andrew lives in the city of",
+    "qn_subject": "Andrew",
+    "answer": "Seoul"
+  },
+  {
+    "context_type": "capital_city",
+    "template": "Answer the question based on the context below. Keep the answer short.\nContext: {E_0} lives in the capital city of {A_0}.\n{E_1} lives in the capital city of {A_1}.\nQuestion: Which city does {qn_subject} live in?\nAnswer: {qn_subject} lives in the city of",
+    "entities": [
+      "Isabella",
+      "Benjamin"
+    ],
+    "attributes": {
+      "countries": [
+        "Mexico",
+        "Russia"
+      ],
+      "cities": [
+        "Mexico City",
+        "Moscow"
+      ]
+    },
+    "text": "Answer the question based on the context below. Keep the answer short.\nContext: Isabella lives in the capital city of Mexico.\nBenjamin lives in the capital city of Russia.\nQuestion: Which city does Benjamin live in?\nAnswer: Benjamin lives in the city of",
+    "qn_subject": "Benjamin",
+    "answer": "Moscow"
+  }
+]

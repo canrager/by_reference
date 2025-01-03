@@ -1,0 +1,37 @@
+{
+    "physical_context": [
+      "{e0} is {e0_color} in color and {e0_size}, while {e1} appears {e1_material} nearby. Later, {e0} and {e1} join {e2}, which remains {e2_color} and {e2_size}.",
+      "The {e0_material} {e0} stands {e0_size}, whereas {e1} shows a {e1_color} tint. When {e2} arrives, both {e0} and {e2} display {e2_material} properties.",
+      "Initially {e0} and {e1} share a {e0_color} hue, until {e2} appears {e2_material} and {e2_shape}. {e1} then shifts to a {e1_color} shade."
+    ],
+    
+    "operational_context": [
+      "{e0} runs in {e0_state} mode until {e1} signals {e1_state}. {e0} then coordinates with {e2}, which operates at {e2_speed} speed.",
+      "{e0} initiates in {e0_state} mode, while {e1} maintains {e1_efficiency} processing. When {e2} joins, {e0} adjusts to {e0_speed} operation.",
+      "First {e0} and {e1} operate {e0_state}, then {e2} activates in {e2_mode}. {e1} responds by switching to {e1_mode}, followed by {e0}."
+    ],
+    
+    "spatial_context": [
+      "{e0} moves from {e0_zone} to join {e1} in {e1_room}. {e2} monitors them from {e2_zone}, while {e0} maintains {e0_position} position.",
+      "Initially in {e0_zone}, {e0} relocates near {e1}. {e2} follows {e0} to {e2_room}, where {e1} maintains {e1_position} position.",
+      "{e0} and {e1} start in {e0_room}, then {e2} arrives from {e2_zone}. {e0} moves to {e0_position} as {e1} approaches {e2}."
+    ],
+    
+    "temporal_context": [
+      "{e0} begins {e0_task} {e0_frequency}, coordinating with {e1}. Later, {e2} joins their {e2_phase} phase, causing {e0} to adjust its timing.",
+      "While {e0} performs {e0_task}, {e1} operates on {e1_duration} cycles. {e2} synchronizes with {e0}, entering its {e2_phase} stage.",
+      "{e0} and {e1} maintain {e0_frequency} operations until {e2} intervenes. {e1} then shifts to {e1_phase} phase alongside {e0}."
+    ],
+    
+    "functional_context": [
+      "{e0} serves as {e0_role}, frequently interacting with {e1}. When {e2} joins as {e2_role}, {e0} adapts to perform {e0_task}.",
+      "Initially, {e0} and {e1} share {e0_mode} control. {e2} enters in {e2_mode}, prompting {e0} to switch to {e0_task} processing.",
+      "{e0} begins in {e0_mode}, coordinating with {e1} for {e1_task}. {e2} then assists {e0} with {e2_task} operations."
+    ],
+    
+    "mixed_context": [
+      "{e0} operates {e0_state} in {e0_zone} until {e1} arrives. Together with {e2}, {e0} transitions to {e0_mode} operation.",
+      "The {e0_color} {e0} works alongside {e1} at {e1_speed}. When {e2} joins them, {e0} adapts its {e0_task} approach.",
+      "{e0} and {e1} maintain {e0_state} status in {e0_zone}. {e2} then coordinates with {e0} for {e2_task} operations."
+    ]
+  }

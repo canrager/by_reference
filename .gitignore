@@ -1,8 +1,4 @@
-*.pt
-*.png
-**/dataset.json
-**/processed_dataset.json
 .python-version
-*.json
-binding_replication/*
-dai_order_id_emnlp_paper/*
+
+/images/
+/artifacts/
