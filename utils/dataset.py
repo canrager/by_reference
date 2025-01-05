@@ -1,14 +1,17 @@
+import os
 import re
 import json
 import random
 from typing import Dict, List, Tuple, Any, Optional
-import os
 from collections import defaultdict
 from transformers import AutoTokenizer
 from itertools import product
-from utils.generation import gen_and_eval
 from nnsight import LanguageModel
 from tqdm import tqdm
+
+import pathlib # For / operator
+from utils.project_config import ROOT_DIR
+from utils.generation import gen_and_eval
 
 
 def load_json(filename: str) -> Dict:
@@ -96,10 +99,10 @@ def generate_dataset(
     sample_attributes_randomly: bool = True,
     selected_template_categories: Optional[List[str]] = None,
     question_order: Optional[int] = None,
-    entities_file: str = "data/entities.json",
-    attributes_file: str = "data/attributes.json",
-    templates_file: str = "data/templates_box.json",
-    raw_dataset_path: Optional[str] = "data/dataset.json",
+    entities_file: str = ROOT_DIR / "data/entities.json",
+    attributes_file: str = ROOT_DIR / "data/attributes.json",
+    templates_file: str = ROOT_DIR / "data/templates_box.json",
+    raw_dataset_path: Optional[str] = ROOT_DIR / "data/dataset.json",
 ) -> List[Dict[str, Any]]:
     """Generate a dataset of formatted templates with unique entities and attributes."""
     entities_data = load_json(entities_file)
@@ -123,7 +126,13 @@ def generate_dataset(
             sample_attributes_randomly,
             selected_entity_categories,
         )
-        a_dict = get_words(attributes_data, num_relations, "a", sample_entities_randomly, selected_attribute_categories)
+        a_dict = get_words(
+            attributes_data,
+            num_relations,
+            "a",
+            sample_entities_randomly,
+            selected_attribute_categories,
+        )
 
         if question_order is None:
             question_order = random.choice(range(num_relations))
@@ -163,7 +172,9 @@ def generate_base_source_pair(
     )
 
     # generate source box labels
-    source_box_dict = get_words(box_labels, num_relations, "a", selected_categories=[attribute_name])
+    source_box_dict = get_words(
+        box_labels, num_relations, "a", selected_categories=[attribute_name]
+    )
     source_box_dict["a_question"] = source_box_dict[f"a{source_order}"]
 
     # generate base box labels
@@ -187,10 +198,12 @@ def generate_base_source_pair(
 
     # Add data for evaluation
     base_example["special_str"] = {
-        "base_object_from_source_box_pointer": base_example['key_to_word'][f"e{source_order}"],
-        "base_object_from_source_qbox_in_base": base_example['key_to_word'][f"e{source_box_in_base_order}"],
-        "correct_base_object": base_example['question']["answer_str"],
-        "source_object": source_example['key_to_word'][f"e{source_order}"],
+        "base_object_from_source_box_pointer": base_example["key_to_word"][f"e{source_order}"],
+        "base_object_from_source_qbox_in_base": base_example["key_to_word"][
+            f"e{source_box_in_base_order}"
+        ],
+        "correct_base_object": base_example["question"]["answer_str"],
+        "source_object": source_example["key_to_word"][f"e{source_order}"],
     }
 
     return source_example, base_example
@@ -243,7 +256,9 @@ def get_token_positions(
     for key, word in key_to_word.items():
         word_lower = word.lower().strip(" ")
         if word_lower not in token_to_position or not token_to_position[word_lower]:
-            raise AttributeError(f"Unable to match {key}={word} with available tokens {token_to_position}.")
+            raise AttributeError(
+                f"Unable to match {key}={word} with available tokens {token_to_position}."
+            )
         key_positions[key] = token_to_position[word_lower].pop(0) + num_left_pad
 
     return key_positions, token_ids, attention_masks, num_left_pad, content_length, num_right_pad
@@ -327,7 +342,7 @@ def process_dataset(
     max_context_length: int = 100,
     ctx_length_with_pad: int = 1000,
     random_offset: bool = True,
-    save_path: Optional[str] = "data/processed_dataset.json",
+    save_path: Optional[str] = ROOT_DIR / "data/processed_dataset.json",
 ) -> List[Dict[str, Any]]:
     """Process dataset with token position mapping."""
     processed_dataset = []
@@ -362,14 +377,14 @@ def generate_base_source_dataset(
     save_path: Optional[str] = None,
 ):
     # load template
-    template = load_json("data/templates_box.json")[template_name][0]
+    template = load_json(ROOT_DIR / "data/templates.json")[template_name][0]
     num_relations = count_unique_relations(template)
 
     # load entities
-    entity_data = load_json("data/entities.json")
+    entity_data = load_json(ROOT_DIR / "data/entities.json")
 
     # load attributes / box labels
-    box_labels = load_json("data/attributes.json")
+    box_labels = load_json(ROOT_DIR / "data/attributes.json")
 
     # Iterate over allowed source and base orders
     full_base_dataset = []
@@ -377,7 +392,7 @@ def generate_base_source_dataset(
     for source_order, base_order in tqdm(
         product(range(num_relations), repeat=2),
         desc="Generating dataset",
-        total=num_relations ** 2,
+        total=num_relations**2,
     ):
         if source_order == base_order:
             continue
@@ -395,8 +410,12 @@ def generate_base_source_dataset(
                 source_entity_name=source_entity_name,
                 attribute_name=attribute_name,
             )
-            source_example = process_example(source_example, tokenizer, max_context_length, ctx_length_with_pad, random_offset)
-            base_example = process_example(base_example, tokenizer, max_context_length, ctx_length_with_pad, random_offset)
+            source_example = process_example(
+                source_example, tokenizer, max_context_length, ctx_length_with_pad, random_offset
+            )
+            base_example = process_example(
+                base_example, tokenizer, max_context_length, ctx_length_with_pad, random_offset
+            )
             source_is_correct = gen_and_eval(model, source_example)
             base_is_correct = gen_and_eval(model, base_example)
             if source_is_correct and base_is_correct:
@@ -406,42 +425,38 @@ def generate_base_source_dataset(
         full_base_dataset.extend(pair_base_dataset)
         full_source_dataset.extend(pair_source_dataset)
 
-    dataset_dict = {
-        "base": full_base_dataset,
-        "source": full_source_dataset
-    }
+    dataset_dict = {"base": full_base_dataset, "source": full_source_dataset}
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         with open(save_path, "w") as f:
             json.dump(dataset_dict, f, indent=2)
-            
+
     return dataset_dict
 
 
 if __name__ == "__main__":
     from utils.activation import load_model
+
     # Example usage
     num_samples = 100
     model_id = "google/gemma-2-2b"
     total_length = 200
     random_offset = True
 
-    
     words = get_words(
-        word_dict=load_json("data/attributes.json"),
+        word_dict=load_json(ROOT_DIR / "data/attributes.json"),
         num_words=5,
         prefix="a",
         selected_categories=["country"],
         verbose=True,
     )
 
-
     # # generate base source pair
 
     # pair = generate_base_source_pair(
     #     source_order=0,
     #     base_order=1,
-    #     template=load_json("data/templates_box.json")["country"][0],
+    #     template=load_json("data/templates.json")["country"][0],
     #     num_relations=5,
     #     box_labels=load_json("data/attributes.json"),
     #     entity_data=load_json("data/entities.json"),
@@ -451,7 +466,6 @@ if __name__ == "__main__":
     #     verbose=True,
     # )
     # print(pair)
-
 
     # model = load_model(model_id)
     # # Generate base source dataset
