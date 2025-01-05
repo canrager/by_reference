@@ -1,7 +1,3 @@
-"""
-Cache activations [layer, batch, key, hidden_dim]
-"""
-
 import json
 from typing import Any, Dict, List, Tuple
 import torch
@@ -11,7 +7,6 @@ from tqdm.auto import tqdm
 from datasets import load_dataset
 
 EPS = 1e-6
-
 
 
 def load_processed_dataset(dataset_path: str) -> List[Dict[str, Any]]:
@@ -46,9 +41,8 @@ def load_model(model_id: str):
             cache_dir="/share/u/models",
             dispatch=True,
         )
-    elif (
-        model_id == "meta-llama/Llama-2-7b-hf"
-    ):  # the hf is necessary, it contains the hf compatible version
+    elif (model_id == "meta-llama/Llama-2-7b-hf"):
+        # the hf is necessary, it contains the hf compatible version
         model = LanguageModel(
             model_id,
             device_map="cuda:0",
@@ -74,6 +68,9 @@ def load_model(model_id: str):
         )
     else:
         raise ValueError(f"Model '{model_id}' not supported.")
+
+    # Configure Tokenizer
+    model.tokenizer.pad_token = model.tokenizer.eos_token
 
     return model
 

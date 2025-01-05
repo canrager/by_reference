@@ -21,7 +21,7 @@ torch.set_grad_enabled(False)
 # %%
 model_id = "google/gemma-2-2b"
 model = load_model(model_id)
-model.tokenizer.pad_token = model.tokenizer.eos_token
+
 
 # %% [markdown]
 # ## Cache activations
