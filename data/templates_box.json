@@ -1,6 +1,6 @@
 {
     "box_templates": ["The {e0} is in Box {a0}, the {e1} is in Box {a1}, the {e2} is in Box {a2}, the {e3} is in Box {a3}, and the {e4} is in Box {a4}. Box {a_question} contains the"],
     "homecountry_templates": ["Person {e0} is from {a0}, person {e1} is from {a1}, person {e2} is from {a2}, person {e3} is from {a3}, and person {e4} is from {a4}. {a_question} is the home country of Person"],
-    "time_templates": ["First, we're scheduled to meet {e0} on {a0}, followed by {e1} on {a1}. Then we'll connect with {e2} on {a2}, {e3} on {a3}, and finally {e4} on {a4}. Just to confirm - on {a_question}, we're meeting with"],
+    "time_templates": ["First, we're scheduled to meet {e0} in {a0}, followed by {e1} in {a1}. Then we'll connect with {e2} in {a2}, {e3} in {a3}, and finally {e4} in {a4}. Just to confirm - in {a_question}, we're meeting with"],
     "nonbox_templates": ["The {e0} is in {a0}, the {e1} is in {a1}, the {e2} is in {a2}, the {e3} is in {a3}, and the {e4} is in {a4}. Box {a_question} contains the"]
 }

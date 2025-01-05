@@ -170,7 +170,7 @@ def generate_base_source_pair(
         box_labels,
         num_relations,
         "a",
-        selected_categories=["letter"],
+        selected_categories=[attribute_name],
         exclude_values=source_box_dict.values(),
     )
     base_box_dict["a_question"] = base_box_dict[f"a{base_order}"]

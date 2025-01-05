@@ -6,3 +6,4 @@
 *.json
 binding_replication/*
 dai_order_id_emnlp_paper/*
+artifacts/*
